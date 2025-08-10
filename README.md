@@ -4,11 +4,23 @@ This project leverages Grab driver telematics data, including anonymized acceler
 
 ## 🎯 Business Problem
 
-Grab aims to improve the safety of its driver-partners by leveraging anonymized telematics data from vehicle sensors (acceleration, gyro, GPS). This project aims to:
+Grab, a major ride-hailing platform with millions of driver-partners, aims to improve safety and service quality by utilizing anonymous driver telematics data. The main objectives of this project:
 
-- Analyze high-risk driving behavior patterns.
-- Build a risk prediction model based on telematics data.
-- Provide recommendations for risk mitigation and safety improvement strategies.
+1. Detecting high-risk driving behavior based on sensor data (acceleration, gyro, speed, and GPS accuracy) during a trip to prevent accidents and damage.
+
+2. Identifying patterns and contributing factors to potential risks so Grab can provide education or incentives to drivers to improve safety.
+
+3. Building risk prediction models or driver categories based on telematics data to support risk management decisions, insurance premium determination, or reward systems for safe drivers.
+
+**Key Business Questions:**
+
+1. What are the characteristics of driving behavior that indicate high risk?
+
+2. Which telematics sensor features are most influential in predicting risk events?
+
+3. How can we distinguish driver segments with different risk levels using telematics data?
+
+4. What are the recommended risk mitigation and safety improvement strategies based on the data analysis results?
 
 ## 📋 Dataset
 
@@ -86,6 +98,8 @@ jupyter notebook
 
 ```
 
-👤 Author
-Defrizal Yahdiyan Risyad
-LinkedIn | GitHub
+## 👤 Author
+
+*Defrizal Yahdiyan Risyad*
+
+[LinkedIn](#https://www.linkedin.com/in/defrizalyr?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BqZ%2B7dZzhS%2FCtdV82zspJFQ%3D%3D) | [GitHub](#https://github.com/defrijay)
